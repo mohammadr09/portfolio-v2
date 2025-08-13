@@ -3,7 +3,7 @@ import Navbar from "@/lib/components/Navbar";
 import {
   KeyboardDoubleArrowDownOutlined as DownArrow,
   AccountCircleOutlined as User,
-  LocalShippingOutlined as Shipping,
+  // LocalShippingOutlined as Shipping,
 } from '@mui/icons-material';
 
 import { SiNextdotjs, SiPython, SiTailwindcss, SiFirebase, SiStripe, SiReact, SiCplusplus, SiTypescript } from "react-icons/si";
@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex flex-col text-center items-center justify-center min-h-[80vh] p-4">
           <h2 className="text-3xl fira text-sky-400 font-semibold">Hello--</h2>
           <h1 className="text-6xl ubuntu">
-            I'm <strong><u className="">Mohammad</u></strong>.
+            I&apos;m <strong><u className="">Mohammad</u></strong>.
           </h1>
           <p className="fira mt-3 text-lg">Junior Year High School Student @ Stuyvesant</p>
           <p className="fira mt-1.5 text-lg font-bold text-red-400">Full-Stack Web Developer (Freelance) | NextJS | Python | Java</p>
@@ -31,7 +31,7 @@ export default function Home() {
         <h2 className="text-sky-400 text-2xl text-center fira font-semibold pt-32">ABOUT ME</h2>
         <h1 className="text-4xl text-center ubuntu font-semibold">Allow me to introduce myself.</h1>
         <p className="ubuntu mt-4 text-lg text-center max-w-2xl mx-auto leading-8 text-gray-600">
-          I'm a zealous web developer focused on developing user friendly and responsive sites. I have a strong passion
+          I&apos;m a zealous web developer focused on developing user friendly and responsive sites. I have a strong passion
           to coding front and backend applications, and I am always eager to learn new technologies and frameworks.
           I strive to build websites that are not only functional but also visually appealing and easy to navigate.
         </p>
